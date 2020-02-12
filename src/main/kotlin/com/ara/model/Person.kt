@@ -1,4 +1,4 @@
-package com.ara.mvc.model
+package com.ara.model
 
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue
