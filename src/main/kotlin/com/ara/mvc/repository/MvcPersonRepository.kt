@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository
 import java.util.*
 
 @Repository
-interface PersonRepository : CrudRepository<Person, Long> {
+interface MvcPersonRepository : CrudRepository<Person, Long> {
     fun findByName(name: String) : Optional<Person>
 }

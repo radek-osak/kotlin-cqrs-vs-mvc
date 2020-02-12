@@ -6,9 +6,9 @@ import com.ara.model.Person
 import org.springframework.web.bind.annotation.*
 
 @RestController
-@RequestMapping("/mvc")
-class PersonController(private val personCommandService: PersonCommandService,
-                       private val personQueryService: PersonQueryService) {
+@RequestMapping("/cqrs")
+class CqrsPersonController(private val personCommandService: PersonCommandService,
+                           private val personQueryService: PersonQueryService) {
 
     @GetMapping("/person/all")
     fun findAll() : MutableIterable<Person> = personQueryService.findAll()

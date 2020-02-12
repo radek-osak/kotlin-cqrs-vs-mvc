@@ -1,7 +1,7 @@
 package com.ara.mvc
 
 import com.ara.model.Person
-import com.ara.mvc.repository.PersonRepository
+import com.ara.mvc.repository.MvcPersonRepository
 import com.ara.mvc.service.PersonService
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
@@ -12,7 +12,7 @@ import java.util.*
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class PersonServiceTest (@Autowired private val personService: PersonService,
-                         @Autowired private val personRepository: PersonRepository) {
+                         @Autowired private val personRepository: MvcPersonRepository) {
 
     @BeforeEach
     fun setup() {

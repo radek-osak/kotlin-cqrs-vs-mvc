@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*
 
 @RestController
 @RequestMapping("/mvc")
-class PersonController(private val personService: PersonService) {
+class MvcPersonController(private val personService: PersonService) {
 
     @GetMapping("/person/all")
     fun findAll() : MutableIterable<Person> = personService.findAll()

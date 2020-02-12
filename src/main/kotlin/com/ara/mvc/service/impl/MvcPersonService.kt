@@ -1,13 +1,13 @@
 package com.ara.mvc.service.impl
 
 import com.ara.model.Person
-import com.ara.mvc.repository.PersonRepository
+import com.ara.mvc.repository.MvcPersonRepository
 import com.ara.mvc.service.PersonService
 import org.springframework.stereotype.Service
 import java.util.*
 
 @Service
-class DefaultPersonService(private val personRepository: PersonRepository) : PersonService {
+class MvcPersonService(private val personRepository: MvcPersonRepository) : PersonService {
 
     override fun findAll(): MutableIterable<Person> {
         return personRepository.findAll()
