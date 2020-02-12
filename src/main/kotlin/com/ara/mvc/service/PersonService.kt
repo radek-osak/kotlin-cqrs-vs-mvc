@@ -1,6 +1,6 @@
 package com.ara.mvc.service
 
-import com.ara.mvc.model.Person
+import com.ara.model.Person
 import org.springframework.stereotype.Service
 
 @Service

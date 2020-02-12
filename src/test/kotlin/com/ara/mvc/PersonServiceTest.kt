@@ -1,6 +1,6 @@
 package com.ara.mvc
 
-import com.ara.mvc.model.Person
+import com.ara.model.Person
 import com.ara.mvc.repository.PersonRepository
 import com.ara.mvc.service.PersonService
 import org.junit.jupiter.api.BeforeEach

@@ -1,6 +1,6 @@
 package com.ara.mvc.controller
 
-import com.ara.mvc.model.Person
+import com.ara.model.Person
 import com.ara.mvc.service.PersonService
 import org.springframework.web.bind.annotation.*
 

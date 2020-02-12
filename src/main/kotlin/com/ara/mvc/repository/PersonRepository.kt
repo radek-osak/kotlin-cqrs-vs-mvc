@@ -1,6 +1,6 @@
 package com.ara.mvc.repository
 
-import com.ara.mvc.model.Person
+import com.ara.model.Person
 import org.springframework.data.repository.CrudRepository
 import org.springframework.stereotype.Repository
 import java.util.*
