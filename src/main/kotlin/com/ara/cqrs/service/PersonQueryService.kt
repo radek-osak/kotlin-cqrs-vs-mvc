@@ -7,5 +7,5 @@ import org.springframework.stereotype.Service
 interface PersonQueryService {
 
     fun findAll(): MutableIterable<Person>
-    fun findById(id: Long) : Person
+    fun findByName(name: String) : Person
 }

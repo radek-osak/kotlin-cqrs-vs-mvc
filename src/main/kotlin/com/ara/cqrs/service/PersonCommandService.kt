@@ -7,5 +7,5 @@ import org.springframework.stereotype.Service
 interface PersonCommandService {
 
     fun save(person: Person)
-    fun delete(id: Long)
+    fun delete(name: String)
 }

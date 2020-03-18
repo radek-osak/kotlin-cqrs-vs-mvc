@@ -5,5 +5,5 @@ import org.springframework.data.repository.CrudRepository
 import org.springframework.stereotype.Repository
 
 @Repository
-interface CqrsPersonRepository: CrudRepository<Person, Long> {
+interface PersonCommandRepository : CrudRepository<Person, Long> {
 }
